@@ -1,47 +1,57 @@
 # Codec-project
-Network Traffic Analyzer
-Network Traffic Analyzer is a Python-based tool that analyzes network traffic captured in PCAP files. It provides valuable insights into the communication between different IP addresses, the distribution of network protocols, and potential port scanning activities. The application aims to aid network administrators and security experts in identifying network-related issues and security vulnerabilities.
 
-Features
-Analyze network traffic from PCAP files
-Calculate total bandwidth used
-Display protocol distribution
-Identify top IP address communications
-Detect potential port scanning activities
-Future Enhancements
-In the future, the Network Traffic Analyzer will include the following features:
 
-Plotting graphs w.r.t IP
-Calculating latency, packet loss, throughput, jitter, network utilization, and error rates
-Installation
-Clone the repository:
+A **Network Traffic Analyzer** is a software or hardware tool used to **monitor, capture, and analyze network traffic** in real-time or over a specific time period. Its primary function is to inspect data packets traveling across a network to help IT administrators and cybersecurity professionals understand, manage, and secure their network infrastructure.
 
-Navigate to the project directory: cd network-traffic-analyzer
+---
 
-Install the required dependencies: pip install -r requirements.txt
+### ✅ **Key Functions:**
 
-Usage
-To analyze a PCAP file, run the following command:
+1. **Traffic Monitoring:**
+   Continuously monitors all inbound and outbound traffic in a network.
 
-python Network_traffic_analyzer.py <path_to_pcap_file> <port_scan_threshold>
+2. **Packet Capture:**
+   Captures individual packets for detailed inspection (packet sniffing).
 
-Replace <path_to_pcap_file> with the path to your PCAP file, and <port_scan_threshold> with the desired threshold for detecting port scanning activities.
+3. **Protocol Analysis:**
+   Analyzes protocols like TCP, UDP, HTTP, DNS, etc., to understand communication behavior.
 
-Contributing
-We welcome contributions from the community! If you'd like to contribute, please follow these steps:
+4. **Bandwidth Usage:**
+   Identifies which devices, applications, or users are consuming the most bandwidth.
 
-Fork the repository
-Create your feature branch (git checkout -b feature/my-feature)
-Commit your changes (git commit -m 'Add my feature')
-Push to the branch (git push origin feature/my-feature)
-Open a Pull Request
-License
-This project is licensed under the MIT License.
+5. **Performance Optimization:**
+   Helps diagnose bottlenecks, latency issues, and packet loss to optimize performance.
 
-Acknowledgments
-Scapy for packet processing capabilities
-Pandas for data manipulation and analysis
-Matplotlib for creating graphs and visualizations
+6. **Security Monitoring:**
+   Detects suspicious behavior like unauthorized access, malware communication, or DDoS attacks.
 
+---
+
+### 🔍 **Common Use Cases:**
+
+* Troubleshooting network issues
+* Detecting and responding to security threats
+* Analyzing network performance trends
+* Auditing and compliance reporting
+
+---
+
+### 🧰 **Popular Network Traffic Analyzer Tools:**
+
+* **Wireshark** – Open-source, widely used for packet-level analysis.
+* **SolarWinds Network Performance Monitor**
+* **PRTG Network Monitor**
+* **Tcpdump** – CLI tool for packet capture.
+* **Nagios** – Network monitoring with alerts.
+
+---
+
+### 🛠️ **How It Works:**
+
+A network traffic analyzer typically uses **network interfaces in promiscuous mode** to capture all packets on a segment. It then parses and presents the information in a human-readable format, often with filters and graphs for easier analysis.
+
+---
+
+If you need this for a **project, report, or cybersecurity tool description**, let me know — I can tailor the content.
 
 
