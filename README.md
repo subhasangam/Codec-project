@@ -52,6 +52,6 @@ A network traffic analyzer typically uses **network interfaces in promiscuous mo
 
 ---
 
-If you need this for a **project, report, or cybersecurity tool description**, let me know — I can tailor the content.
+
 
 
